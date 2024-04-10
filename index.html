@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roupas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="shirt.jpg" alt="Shirt">
+      <h3>Camisa</h3>
+      <button class="add-to-backpack">Adicionar à mochila</button>
+    </div>
+    <div class="card">
+      <img src="pants.jpg" alt="Pants">
+      <h3>Calça</h3>
+      <button class="add-to-backpack">Adicionar à mochila</button>
+    </div>
+  </div>
+  <button id="show-backpack">Bag</button>
+  <div class="backpack hidden">
+    <div class="popup">
+      <h2>Mochila</h2>
+      <button id="close-backpack">X</button>
+      <ul></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
